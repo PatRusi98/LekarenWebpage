@@ -126,3 +126,8 @@ form input {
     padding: 0 10px;
     border: 1px solid green;
 }
+
+.col-produkt {
+    float: left;
+    width: 50%;
+}
