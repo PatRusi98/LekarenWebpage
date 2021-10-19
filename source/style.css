@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lekaren_logo {
+    width: 50px;
+    height: 50px;
+    background-image: url("logo-lekaren.png");
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#name_nav {
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navigation {
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+ul {
+    margin-top: 27px;
+}
+
+li {
+    display: inline;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+#login_nav {
+    font-weight: bold;
+}
+
+.small-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col img {
+    height: 220px;
+    width: 220px;
+}
