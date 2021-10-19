@@ -20,6 +20,11 @@ body {
     margin-right: 20px;
 }
 
+#name_nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     max-width: 1300px;
     margin: auto;
@@ -41,12 +46,12 @@ li {
     margin-right: 25px;
 }
 
-a {
+.menu a {
     text-decoration: none;
     color: forestgreen;
 }
 
-a:hover {
+.menu:hover {
     text-decoration: underline;
     color: darkgreen;
 }
@@ -72,4 +77,9 @@ a:hover {
 .col img {
     height: 220px;
     width: 220px;
+}
+
+.row a {
+    text-decoration: none;
+    color: black;
 }
