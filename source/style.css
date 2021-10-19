@@ -68,15 +68,12 @@ li {
 }
 
 .col {
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 50px;
+    float: left;
+    width: 33.33%;
 }
 
 .col img {
-    height: 220px;
-    width: 220px;
+    width: 70%;
 }
 
 .row a {
